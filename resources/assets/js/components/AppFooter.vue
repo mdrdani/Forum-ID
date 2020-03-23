@@ -1,6 +1,6 @@
 <template>
   <v-footer>
-    nongky
+    Forum-ID
     <v-spacer></v-spacer>
     <div>&copy; {{ new Date().getFullYear() }}</div>
   </v-footer>

@@ -4,10 +4,12 @@
     flat
     tile
   >
-    <v-toolbar extended extension-height="10">
+    <v-toolbar 
+      dark
+      src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
       <!--<v-app-bar-nav-icon></v-app-bar-nav-icon>-->
 
-      <v-toolbar-title>nongKy</v-toolbar-title>
+      <v-toolbar-title>Forum-ID</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
