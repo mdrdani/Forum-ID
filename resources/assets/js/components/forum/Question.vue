@@ -1,8 +1,8 @@
 <template>
-    <v-card class="my-5">
+    <v-card class="my-2">
         <v-card-title primary-title>
             <div>
-                <h3 class="headline mb-0">
+                <h3 class="headline mb-1">
                     <router-link :to="question.path"> 
                         {{question.title}}
                     </router-link>

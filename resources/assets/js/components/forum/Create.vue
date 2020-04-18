@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card class="pa-md-4 mx-lg-auto" color="white" width="750px">
+    <v-card class="pa-md-4 mx-lg-auto" color="white" width="900px">
       <v-form @submit.prevent="create">
 
         <v-text-field v-model="form.title" label="Title" type="text" required></v-text-field>

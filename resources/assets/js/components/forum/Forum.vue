@@ -6,15 +6,18 @@
 
             </question>
          </v-flex>
-         sidebar
+         <v-flex class="ml-2">
+            <app-sidebar></app-sidebar>
+         </v-flex>
       </v-layout>
    </v-container>
 </template>
 
 <script>
 import Question from './Question.vue'
+import AppSidebar from './AppSidebar'
 export default {
-    components: {Question},
+    components: {Question, AppSidebar},
     data: function(){
        return{
           questions: {}
